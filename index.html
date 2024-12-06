@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js defer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+    <title>Roosevelt</title>
+  </head>
+
+  <body>
+    <div class="superinfo-bg">
+      <div class="superinfo">
+        <p>Seg / Sexta dás: 08:00 ás 18:00</p>
+        <a href="tel:+5513991083764">+55 13 99108-3764</a>
+        <p>Rua: 15, Número: 117</p>
+      </div>
+    </div>
+
+    <header class="menu-bg">
+      <div class="menu">
+        <div class="menu-logo">
+          <h1 class="nome">Roosevelt Trigo</h1>
+        </div>
+        <nav class="menu-nav">
+          <ul>
+            <li><a href="#sobre" class="scroll-link">Sobre</a></li>
+            <li><a href="#produtos">Serviços</a></li>
+            <li><a href="#preco">Preços</a></li>
+            <li><a href="#qualidade">Qualidade</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="sobre" id="sobre txt_russo">
+      <div class="sobre-info">
+        <h1>Sobre</h1>
+        <p>
+          Meu nome é Roosevelt Trigo Ferreira da Silva, tenho 45 anos e sou
+          apaixonado por tecnologia.
+        </p>
+        <p>
+          Aqui vão conhecer mais um pouco da minha história e serviços. Vou
+          deixar tudo registrado para que possam me conhecer.
+        </p>
+        <p>
+          Minha profissão de CLT é motorista carreteiro, mas sempre gostei de
+          tecnologia e tive curiosidade em mexer com computadores e internet.
+        </p>
+        <a href="#"><img src="icone.png" width="25px" height="25px" /></a>
+      </div>
+
+      <div class="sobre-img img_russo">
+        <img src="russo.jpg" alt="Roosevelt" width="270px" height="250px" />
+      </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+      <h1>Serviços</h1>
+      <div class="produtos-container">
+        <div class="produtos-item purple">
+          <h2>Purple</h2>
+          <img src="img/CSS3_logo.svg.png" alt="CSS3" />
+        </div>
+
+        <div class="produtos-item pink">
+          <h2>Pink</h2>
+          <a href="#"><img src="icone.png" width="25px" height="25px" /></a>
+          <img src="img/CSS3_logo.svg.png" alt="CSS3" height="300px" />
+        </div>
+      </div>
+    </section>
+
+    <section class="preco" id="preco">
+      <div class="preco-item">
+        <h2>Cobre</h2>
+        <span><sup>R$</sup> 19</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24 horas</li>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
+
+      <div class="preco-item">
+        <h2>Prata</h2>
+        <span><sup>R$</sup> 39</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24 horas</li>
+          <li>Compra Exclusiva</li>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
+
+      <div class="preco-item">
+        <h2>Ouro</h2>
+        <span><sup>R$</sup> 79</span>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24 horas</li>
+          <li>Compra Exclusiva</li>
+          <li>Download dos itens</li>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>Assine para receber novidades!</p>
+      </div>
+
+      <form class="newsletter-form" onsubmit="return validateForm()">
+        <input type="email" placeholder="Seu e-mail" name="email" id="email" />
+        <button type="submit">Assinar</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>Flex Box - Todos os direitos reservados.</p>
+    </footer>
+
+    
+  </body>
+</html>
